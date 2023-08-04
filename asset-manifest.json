@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shrutiBaghel_porfolio/static/css/main.92edeff8.css",
+    "main.js": "/shrutiBaghel_porfolio/static/js/main.ff2e15e9.js",
+    "static/js/787.b6e7b2ed.chunk.js": "/shrutiBaghel_porfolio/static/js/787.b6e7b2ed.chunk.js",
+    "static/media/womenWithDesktop.png": "/shrutiBaghel_porfolio/static/media/womenWithDesktop.3e784755d67294e1dd26.png",
+    "index.html": "/shrutiBaghel_porfolio/index.html",
+    "main.92edeff8.css.map": "/shrutiBaghel_porfolio/static/css/main.92edeff8.css.map",
+    "main.ff2e15e9.js.map": "/shrutiBaghel_porfolio/static/js/main.ff2e15e9.js.map",
+    "787.b6e7b2ed.chunk.js.map": "/shrutiBaghel_porfolio/static/js/787.b6e7b2ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92edeff8.css",
+    "static/js/main.ff2e15e9.js"
+  ]
+}
