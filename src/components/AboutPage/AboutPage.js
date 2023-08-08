@@ -3,10 +3,8 @@ import PropTypes from 'prop-types'
 
 export default function AboutPage(pageData) {
   return (
-    <div className="page-container" data-page-type ={pageData.pageType}>
-        <div className="page-header">
-              {/* <HomePageHeader/> */}
-        </div>
+    <div className={`page-container ${pageData.pageType}`}  data-page-type ={pageData.pageType}>
+        
         <div className="page-body">
              {/* <HomePageBody/> */}
         </div>

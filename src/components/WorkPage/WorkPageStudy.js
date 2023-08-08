@@ -23,7 +23,7 @@ export default function WorkPageStudy() {
         <div className="second-col justifiy-end"></div>
         <div className="third-col">
             <div className="td-row-first">
-            <img className = "education-img"src="./education-step.png" /></div>
+            <img className = "education-img"src={process.env.PUBLIC_URL + "/education-step.png"} /></div>
         </div>
       </div>
   )

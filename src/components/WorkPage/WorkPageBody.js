@@ -44,7 +44,7 @@ export default function WorkPageBody() {
                         <div className="m-title">&lt;Coder&gt;</div>
                         <div className="s-description">Front-End Developer focuses on writing elegant and efferent code.</div>
                     </div>
-                    <img src="./Ellipse-pc.svg"/>
+                    <img src={process.env.PUBLIC_URL + "/Ellipse-pc.svg"}/>
             </div>
             <div className="text-wrapper" >
                 <div className="m-title">Designer</div>

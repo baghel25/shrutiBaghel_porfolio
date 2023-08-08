@@ -6,9 +6,9 @@ import WorkPageProject from './WorkPageProject'
 export default function WorkPage(pageData) {
   return (
     <div className='work-container'>
-      <div className="page-header">
+      {/* <div className="page-header">
           <HomePageHeader></HomePageHeader>
-      </div>
+      </div> */}
       <div className='wrapper'>
       <svg  className ="background-stroke" width="550" height="1500" viewBox="0 0 617 2256" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_d_123_45)">
@@ -60,7 +60,6 @@ export default function WorkPage(pageData) {
             
         </div>
       </div>
-      
       <div className="page-v-container p-absolute"> </div>
       {/* <div className="page-h-container p-absolute"> </div> */}
     </div>

@@ -5,7 +5,7 @@ export default function WorkPageProject() {
     <div className="p-body-container project"><div className="first-col justifiy-center">
         
     <div className="td-row-first">
-    <img src="./Ellipse-study.svg"/>
+        <img src={process.env.PUBLIC_URL + "/Ellipse-study.svg"} />
     </div>
 </div><div className="second-col justifiy-end"></div>
 <div className="third-col" >

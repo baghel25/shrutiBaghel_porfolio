@@ -1,19 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HomePageHeader() {
   return (
     <>
         <div className="page-h-container">
-            <div className="header-title">Home</div>
-            <div className="header-title">Work</div>
-            <div className="header-title">About</div>
-            <div className="header-title">Contact</div>
+            <Link to={'/home'} className="header-title">Home</Link>
+            <Link to ={'/work'} className="header-title">Work</Link>
+            <Link to ={'/about'} className="header-title">About</Link>
+            <Link to ={'/contact'} className="header-title">Contact</Link>
         </div>     
         <div className="page-h-container-icon">
-            <div className="header-title"><i className="fa fa-home" aria-hidden="true"></i></div>
-            <div className="header-title"><i className="fa fa-briefcase" aria-hidden="true"></i></div>
-            <div className="header-title"><i className="fa fa-user" aria-hidden="true"></i></div>
-            <div className="header-title"><i className="fa fa-address-book" aria-hidden="true"></i></div>
+            <Link to ={'/home'} className="header-title"><i className="fa fa-home" aria-hidden="true"></i></Link>
+            <Link to ={'/work'} className="header-title"><i className="fa fa-briefcase" aria-hidden="true"></i></Link>
+            <Link to ={'/about'} className="header-title"><i className="fa fa-user" aria-hidden="true"></i></Link>
+            <Link to ={'/contact'} className="header-title"><i className="fa fa-address-book" aria-hidden="true"></i></Link>
         </div> 
     </>
   )

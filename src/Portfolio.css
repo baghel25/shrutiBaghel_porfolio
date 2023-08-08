@@ -1,8 +1,9 @@
 .App {
     text-align: center;
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: 100vh !important;
+    width: 100vw !important;
+    flex-direction: column;
 }
 body {
     height: 100vh;
@@ -114,32 +115,42 @@ body {
 }
 /* header */
 .page-header {
-    background: rgba(205, 233, 144, 0.74);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 45px;
-    padding: 0px 16px 0px 16px;
+    padding: 6px 16px 6px 16px;
+    align-items: center;
     display: flex;
     z-index: 1;
+    background: #030518;
 }
 
- .page-header .page-h-container ,
- .page-header .page-h-container-icon {
+.page-header .page-h-container, .page-header .page-h-container-icon {
     display: flex;
     font-weight: 700;
-    width: fit-content;
     line-height: normal;
     justify-content: end;
     align-items: center;
+    height: -webkit-fill-available;
     width: -webkit-fill-available;
 }
+.page-header .page-h-container .header-title:hover {
+    background: white;
+    
+    color: black;
+}
+
 .page-header .page-h-container .header-title {
     color: #FFF;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 16px;
     font-family: Inika;
     font-style: normal;
+    align-items: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    display: flex;
     font-weight: 700;
-    margin-right: 30px;
+    margin-right: 20px;
     line-height: normal;
 }
 /* body  */
@@ -294,7 +305,7 @@ body {
 }
 
 /* animaion */
-.page-small-circle {
+.page-container.home .page-small-circle {
   animation-name: page-small-circle ;
   animation-duration: 6s;
   animation-timing-function: revert;
@@ -302,22 +313,22 @@ body {
   animation-iteration-count: 3; 
   animation-iteration-count: infinite; 
 } 
- .page-small-circle-ring {
+ .page-container.home .page-small-circle-ring {
   animation-name: page-small-circle-ring ;
   animation-duration: 3s;
 }
-.page-large-circle {
+.page-container.home .page-large-circle {
   animation-name: page-large-circle ;
   animation-duration: 3s;
 }
-.page-large-circle-ring {
+.page-container.home .page-large-circle-ring {
   animation-name: page-large-circle-ring ;
   animation-duration: 3s;
 }
-.page-large-circle,
-.page-large-circle-ring, 
-/* .page-small-circle, */
-.page-small-circle-ring {
+.page-container.home .page-large-circle,
+.page-container.home .page-large-circle-ring, 
+/* .page-container.home .page-small-circle, */
+.page-container.home .page-small-circle-ring {
     animation-duration: 3s;
     animation-iteration-count: 5; 
     animation-iteration-count: infinite;
@@ -479,6 +490,10 @@ transform: translate(-45%, -45%);
     display: flex;
     align-items: end;
 } 
+.page-container.work img {
+    width: 300px;
+    height: 300px;
+}
 
 /* .page-container.work .page-body .p-body-container .s-description {
 .page-container.work .page-body .p-body-container .s-description {
@@ -491,7 +506,7 @@ transform: translate(-45%, -45%);
 
 
 
-.page-h-container{
+.page-h-container.p-absolute{
     width: 100%;
     left: 0px;
     background: #627d982b;
@@ -514,7 +529,7 @@ path {
   stroke-dashoffset: 9541;
   animation: workDirection;
 /* animation-direction: normal, reverse; */
-animation-duration: 20s;
+animation-duration: 100s;
     /* animation-iteration-count: 5;  */
     animation-iteration-count: infinite;
     animation-timing-function: reverse;
@@ -539,6 +554,18 @@ animation-duration: 20s;
     width: 200px;
     height: 200px;
 }
+/* about page */
+.page-container.about  .page-large-circle {
+    
+    left: 10%;
+    top: 25%;
+}
+.page-container.about .page-large-circle-ring {
+    left: 6%;
+    top: 16%;
+}
+
+/* end of about */
 /* common class this should place on end*/
     .p-absolute {
         position: absolute !important;

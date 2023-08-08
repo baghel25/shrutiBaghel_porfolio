@@ -5,10 +5,8 @@ import HomePageHeader from "./HomePageHeader";
 import HomePageBody from './HomePageBody'
 export default function HomePage(pageData) {
   return (
-    <div className="page-container" data-page-type ={pageData.pageType}>
-        <div className="page-header">
-              <HomePageHeader/>
-        </div>
+    <div className={`page-container ${pageData.pageType}`} data-page-type ={pageData.pageType}>
+        
         <div className="page-body">
              <HomePageBody/>
         </div>
