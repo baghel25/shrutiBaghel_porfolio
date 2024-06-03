@@ -1,0 +1,48 @@
+/* common class this should place on end*/
+.p-absolute {
+    position: absolute !important;
+}
+
+/* title config */
+.title-white {
+    font-size: 16px !important;
+    color: #F5F5F5 !important;
+}
+
+/* width */
+.width-auto {
+    width: auto !important;
+}
+
+/* margin */
+.m-t-10 {
+    margin-top: 10px !important;
+}
+
+.m-t-20 {
+    margin-top: 20px !important;
+}
+
+.m-l-20 {
+    margin-left: 20px !important;
+}
+
+/* flex - justift content */
+.justifiy-center {
+    justify-content: center !important;
+}
+
+.justifiy-end {
+    justify-content: end !important;
+}
+
+.justifiy-start {
+    justify-content: start !important;
+}
+
+/* text config */
+.white-spc-pre-line {
+    white-space: pre-line;
+}
+
+/* common class this should place on end*/

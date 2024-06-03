@@ -3,12 +3,10 @@ import HomePageHeader from '../homePage/HomePageHeader'
 import WorkPageBody from './WorkPageBody'
 import WorkPageStudy from './WorkPageStudy'
 import WorkPageProject from './WorkPageProject'
+import Experience from './Experience'
 export default function WorkPage(pageData) {
   return (
     <div className='work-container'>
-      {/* <div className="page-header">
-          <HomePageHeader></HomePageHeader>
-      </div> */}
       <div className='wrapper'>
       <svg  className ="background-stroke" width="550" height="1500" viewBox="0 0 617 2256" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_d_123_45)">
@@ -29,39 +27,25 @@ export default function WorkPage(pageData) {
       </svg>
         <div className={`page-container ${pageData.pageType}`} data-page-type ={pageData.pageType}>
             <div className="page-body">
-              <WorkPageBody></WorkPageBody>
-            </div>
-            <div className="page-footer">
-                    
-          </div>
+            <WorkPageBody></WorkPageBody>
+            <WorkPageProject></WorkPageProject>
+            <WorkPageStudy></WorkPageStudy>  
+            <Experience></Experience>
+        </div>
           
           {/* <div className="page-v-container p-absolute"> </div> */}
-          <div className="page-h-container p-absolute"> </div>
+          {/* <div className="page-h-container p-absolute"> </div> */}
             {/* <div className="page-large-circle p-absolute"> </div>
             <div className="page-large-circle-ring p-absolute"> </div>
             <div className="page-small-circle p-absolute"> </div>
             <div className="page-small-circle-ring p-absolute"> </div> */}
             
         </div>
-        <div className={`page-container ${pageData.pageType}`} data-page-type ={pageData.pageType}>
-            <div className="page-body">
-              <WorkPageProject></WorkPageProject>
-            </div>
-            {/* <div className="page-v-container p-absolute"> </div> */}
-            <div className="page-h-container p-absolute"> </div>
-            
-        </div>
-        <div className={`page-container ${pageData.pageType}`} data-page-type ={pageData.pageType}>
-            <div className="page-body">
-              <WorkPageStudy></WorkPageStudy>             
-          </div>
-            {/* <div className="page-v-container p-absolute"> </div> */}
-            <div className="page-h-container p-absolute"> </div>
-            
-        </div>
+
+
+
+
       </div>
-      <div className="page-v-container p-absolute"> </div>
-      {/* <div className="page-h-container p-absolute"> </div> */}
     </div>
   )
 }
