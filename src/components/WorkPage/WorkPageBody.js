@@ -4,7 +4,7 @@ import shrutifavIcon from "../../images/shrutiLogo.png";
 export default function WorkPageBody() {
   return (
     <div className="p-body-container">
-        <div className="first-col icon-info" >
+        <div className="first-col icon-info " >
         <img src={shrutifavIcon}></img>
 
         </div>

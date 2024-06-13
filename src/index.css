@@ -102,10 +102,22 @@ button:focus {
   border-radius: 12px;
 }
 .info-card{
-  background-color: #13192ead  !important;
+  /* background-color: #13192ead  !important; */
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
+}
+.aler-msg-play .btn-close {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+}
+.aler-msg-play{
+  position: absolute !important;
+    right: 5%;
+    top: 5%;
+    z-index: 4;
+    width: 300px;
 }
 .icon-info{
     height: 500px;
@@ -288,6 +300,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 .home-header {
@@ -497,7 +510,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
 }
 
 .project-card {

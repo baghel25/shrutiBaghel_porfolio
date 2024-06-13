@@ -33,81 +33,92 @@ import BsFillBootstrapFill from '@meronex/icons/bs/BsFillBootstrapFill';
 import SiMaterialUi from '@meronex/icons/si/SiMaterialUi';
 import FaDocker from '@meronex/icons/fa/FaDocker';
 
+import { IconContext } from "@meronex/icons";
+
+
+
 
 
 function Techstack() {
   return (
+    
+    
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <IconContext.Provider value={{ color: "", className: "bg-white" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <BilJquery color="#ffffff" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiBackbone color="#ffffff"   />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaAngular />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <LgHandlebars />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCoffeescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <AiFillHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <BilCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <BilLess />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <GrSemantics />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <BsFillBootstrapFill />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialUi />
-      </Col>
+          <LgHandlebars />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiBackbone color="#ffffff"   />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiCoffeescript fill="#ffffff"/>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiMysql color="#ffffff" />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <GrSemantics color="#ffffff"/>
+        </Col>
+        </IconContext.Provider>
+        <Col xs={4} md={2} className="tech-icons">
+          <CgCPlusPlus />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJavascript1 />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <BilJquery color="#ffffff" />
+        </Col>
+        
+        <Col xs={4} md={2} className="tech-icons">
+          <TbBrandGolang />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiNodejs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiReact />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <FaAngular />
+        </Col>
+        
+        <Col xs={4} md={2} className="tech-icons">
+          <DiMongodb />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiNextdotjs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiGit />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiPython />
+        </Col>
+        
+       
+        <Col xs={4} md={2} className="tech-icons">
+          <AiFillHtml5 />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <BilCss3 />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <BilLess />
+        </Col>
+        
+        <Col xs={4} md={2} className="tech-icons">
+          <BsFillBootstrapFill />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <FaDocker />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiMaterialUi />
+        </Col>
 
-    </Row>
+        </Row>
   );
 }
 

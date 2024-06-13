@@ -6,7 +6,7 @@ export default function HomePageBody() {
   return (
     <div className="p-body-container"> 
       <div className="into-title-wrapper">
-        <Type text ={["Hello 👋🏻, \nI'm Shruti a SoftWare Engineer"]}></Type>
+        <Type text ={["Hello 👋🏻, \nI'm Shruti a Senior SoftWare Engineer"]}></Type>
       </div>
 
       <div className="laptop-container">
@@ -25,7 +25,8 @@ export default function HomePageBody() {
           <div className="tablet-screen-camera"> </div>
           <div className="tablet-screen-inner">
             <div className="laptop-screen-text">
-            <img src={logoImage}></img></div>
+              <img src={logoImage}></img>
+            </div>
           </div>
         </div>
       </div>

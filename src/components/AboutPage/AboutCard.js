@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Shruti Singh Baghel </span>
-            a <span className="purple"> Full Stack Developer</span>
+            a <span className="purple">Senior Software Engineer</span>
             <br /> Experienced Full Stack Developer with more than three years of expertise in
               creating scalable applications using various technologies and programming
               languages. I consistently achieve project objectives by writing elegant and scalable

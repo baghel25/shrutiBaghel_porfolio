@@ -56,7 +56,7 @@ export default function HomePageHeader() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/shruti-singh-shruti-2b67a416a"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

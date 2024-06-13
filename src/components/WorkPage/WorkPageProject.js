@@ -4,7 +4,7 @@ import about  from "../../Assets/about.png"
 export default function WorkPageProject() {
   return (
     <div className="p-body-container project">
-      <div className="first-col justifiy-center info-card">
+      <div className="first-col justifiy-center shadow p-3 mb-5 rounded info-card">
         <div className="td-row-first">
           {/* <img src={process.env.PUBLIC_URL + "/Ellipse-study.svg"} /> */}
           <div className="text-wrapper">
