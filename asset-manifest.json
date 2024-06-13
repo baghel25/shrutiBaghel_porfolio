@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shrutiBaghel_porfolio/static/css/main.bc890548.css",
-    "main.js": "/shrutiBaghel_porfolio/static/js/main.63f34880.js",
+    "main.css": "/shrutiBaghel_porfolio/static/css/main.35c53f42.css",
+    "main.js": "/shrutiBaghel_porfolio/static/js/main.2d4b2955.js",
     "static/js/453.133147b5.chunk.js": "/shrutiBaghel_porfolio/static/js/453.133147b5.chunk.js",
+    "static/media/porfolio.png": "/shrutiBaghel_porfolio/static/media/porfolio.43e5be9023f92e325033.png",
     "static/media/leaf.png": "/shrutiBaghel_porfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/shrutiBaghel_porfolio/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/shrutiBaghel_porfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/codeEditor.png": "/shrutiBaghel_porfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "/shrutiBaghel_porfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/about.png": "/shrutiBaghel_porfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/womenWithDesktop.png": "/shrutiBaghel_porfolio/static/media/womenWithDesktop.3e784755d67294e1dd26.png",
     "static/media/shrutiLogo.png": "/shrutiBaghel_porfolio/static/media/shrutiLogo.17da1d57de702cbf76c1.png",
@@ -15,12 +15,12 @@
     "static/media/home-bg.jpg": "/shrutiBaghel_porfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "index.html": "/shrutiBaghel_porfolio/index.html",
     "static/media/pre.svg": "/shrutiBaghel_porfolio/static/media/pre.d4812f51c8c80976eaab.svg",
-    "main.bc890548.css.map": "/shrutiBaghel_porfolio/static/css/main.bc890548.css.map",
-    "main.63f34880.js.map": "/shrutiBaghel_porfolio/static/js/main.63f34880.js.map",
+    "main.35c53f42.css.map": "/shrutiBaghel_porfolio/static/css/main.35c53f42.css.map",
+    "main.2d4b2955.js.map": "/shrutiBaghel_porfolio/static/js/main.2d4b2955.js.map",
     "453.133147b5.chunk.js.map": "/shrutiBaghel_porfolio/static/js/453.133147b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc890548.css",
-    "static/js/main.63f34880.js"
+    "static/css/main.35c53f42.css",
+    "static/js/main.2d4b2955.js"
   ]
 }
